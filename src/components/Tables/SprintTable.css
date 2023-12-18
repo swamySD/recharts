@@ -1,0 +1,28 @@
+.sprint-table {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+  }
+  .table {
+    border-spacing: 0px;
+    border-radius: 5px;
+  }
+  .table-heading {
+    background-color:#3e4859;
+    color: white;
+    
+    
+  }
+  .thead th {
+    text-align: center;
+    
+  }
+  .tbody {
+    background-color:#c2d2f0;
+    color: #797777;
+  }
+  td,
+  th {
+    padding: 5px;
+  }

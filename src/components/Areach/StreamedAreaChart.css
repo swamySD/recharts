@@ -1,0 +1,59 @@
+.sprints-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.time-headings{
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  color: #808080;
+  font-size: 16px;
+  margin-right: 10px;
+}
+.custom_tooltip {
+  background-color: #fff;
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 140px;
+  border-radius: 8px;
+  height: 130px;
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.issue_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.chart-indicators-container {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-start;
+    padding-left: 70px;
+  }
+  .chart-indicators {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .icon {
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+  }
+  .issue-open {
+    background-color: #404040;
+  }
+  .issue-started {
+    
+    background-color: #808080;
+  }
+  .issue-completed {
+    
+    background-color: #d3d3d3;
+  }

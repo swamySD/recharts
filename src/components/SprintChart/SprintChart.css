@@ -1,0 +1,11 @@
+.headings-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    color: #808080;
+    font-size: 16px;
+    margin-right: 10px;
+    padding-left: 80px;
+    padding-right: 50px;
+}
