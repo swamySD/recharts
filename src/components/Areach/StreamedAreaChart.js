@@ -130,10 +130,10 @@ const Areachart = () => {
          <span>Total Lead time:35 days(Avg)</span>
          <span>Total Cycle Time:33 days(Avg)</span>
       </div>
-      <ResponsiveContainer aspect={3}>
+      <ResponsiveContainer aspect={2}>
         <AreaChart
           width={500}
-          height={300}
+        
           data={data}
           margin={{
             top: 20,
@@ -162,15 +162,15 @@ const Areachart = () => {
       <div className="chart-indicators-container">
         <div className="chart-indicators">
           <div className="icon issue-open" />
-          <p>Issue open</p>
+          <p className="issue-description">Issue open</p>
         </div>
         <div className="chart-indicators">
           <div className="icon issue-started" />
-          <p>Issue Started</p>
+          <p className="issue-description">Issue Started</p>
         </div>
         <div className="chart-indicators">
           <div className="icon issue-completed" />
-          <p>Issue Completed</p>
+          <p className="issue-description">Issue Completed</p>
         </div>
       </div>
     </div>

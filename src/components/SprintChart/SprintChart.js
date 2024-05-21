@@ -5,7 +5,7 @@ import { SprintChartData } from "../../Data";
 import './SprintChart.css'
 const CustomLegend = ({ payload }) => {
   return (
-    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }} >
       {payload.map((entry, index) => (
         <div key={`legend-${index}`} style={{ marginRight: '10px', display: 'flex', alignItems: 'center' }}>
           <div
@@ -25,9 +25,6 @@ const CustomLegend = ({ payload }) => {
 };
 
 
-
-
-
 const  SprintChart=() =>{
   return (
     <div style={{ width: '100%', height: '400px',marginBottom:'50px' }}>
@@ -37,8 +34,8 @@ const  SprintChart=() =>{
       </div>
   <ResponsiveContainer>
     <BarChart
-      width={500}
-      height={300}
+      
+      height={500}
       data={SprintChartData}
       margin={{
         top: 20,
